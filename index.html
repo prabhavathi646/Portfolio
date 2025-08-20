@@ -9,6 +9,18 @@
     <title>Prabhavathi - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<style>
+    .hero-section {                                     /* ===== internal css ===== */
+    padding: 6rem 0;
+    text-align: center;
+}
+.hero-content {
+    animation: fadeInUp 0.8s ease-out;
+}
+.profile-image-container {
+    margin-bottom: 2rem;
+}
+</style>
 <body>
     <!-- Header Navigation -->
     <header class="header">
@@ -33,7 +45,8 @@
                 <div class="hero-content">
                     <div class="profile-image-container">
                         <div class="profile-image">
-                            <img src="Prabha photo.jpeg" alt="Profile picture">
+                            /* ===== inline css ===== */
+                            <img src="Prabha photo.jpeg" alt="Profile picture"  style="box-shadow:0px 4px 20px rgba(0,0,0,0.2); border-radius:50%;">
                         </div>
                     </div>
                     
