@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Prabhavathi Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="index.html" class="logo">PRABHAVATHI D</a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <section class="page-section">
+            <div class="container">
+                <h1 class="page-title">Get In Touch</h1>
+                
+                <p class="page-intro">
+                    Have a project in mind or just want to say hello? I'd love to hear from you. 
+                    Let's create something amazing together.
+                </p>
+                
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-section">
+                        <div class="content-card">
+                            <h2 class="card-title">Send a Message</h2>
+                            
+                            <form class="contact-form" action="#" method="post">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Full name  *</label>
+                                    <input 
+                                        type="text" 
+                                        id="name" 
+                                        name="name" 
+                                        class="form-input" 
+                                        placeholder="Your Full Name"
+                                        required
+                                    >
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="contact" class="form-label">Contact Number *</label>
+                                    <input 
+                                        type="tel" 
+                                        id="contact" 
+                                        name="contact" 
+                                        class="form-input" 
+                                        placeholder="Your Phone Number"
+                                        required
+                                    >
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email Address *</label>
+                                    <input 
+                                        type="email" 
+                                        id="email" 
+                                        name="email" 
+                                        class="form-input" 
+                                        placeholder="your.email@example.com"
+                                        required
+                                    >
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Message *</label>
+                                    <textarea 
+                                        id="message" 
+                                        name="message" 
+                                        class="form-input form-textarea" 
+                                        placeholder="Tell me about your project or just say hello..."
+                                        rows="6"
+                                        required
+                                    ></textarea>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Information -->
+                    <div class="contact-info-section">
+                        <div class="contact-info-cards">
+                            <div class="content-card">
+                                <h3 class="card-title">Contact Information</h3>
+                                <div class="contact-items">
+                                    <div class="contact-item">
+                                        <div class="contact-icon">📧</div>
+                                        <div class="contact-details">
+                                            <p class="contact-label">Email</p>
+                                            <p class="contact-value">prabhavathiarthi06@gmail.com</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="contact-item">
+                                        <div class="contact-icon">📱</div>
+                                        <div class="contact-details">
+                                            <p class="contact-label">Phone</p>
+                                            <p class="contact-value">+91 9361325633</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="contact-item">
+                                        <div class="contact-icon">📍</div>
+                                        <div class="contact-details">
+                                            <p class="contact-label">Location</p>
+                                            <p class="contact-value">coimbatore,avinashi road</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Prabhavathi Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</head>
